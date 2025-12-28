@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# guessinggame.sh
+#guessinggame.sh
 
 count_files() {
   find . -maxdepth 1 -type f ! -name ".*" | wc -l
